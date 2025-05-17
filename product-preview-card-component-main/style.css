@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.card {
+    width: 700px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo {
+    width: 350px;
+    height: 500px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+p {
+    font-family: Montserrat;
+    font-size: 17px;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 3px;
+    padding: 20px 25px;
+}
+
+h1 {
+    font-family: Fraunces;
+    font-size: 37px;
+    padding: 0 26px;
+}
+
+.text {
+    font-family: Montserrat;
+    font-size: 19px;
+    color: hsl(228, 12%, 48%);
+    padding: 20px 25px;
+    letter-spacing: -0.3px;
+}
+
+.money {
+    display: flex;
+    text-align: center;
+}
+
+h2 {
+    font-family: Fraunces;
+    font-size: 37px;
+    padding: 0 26px;
+    color: hsl(158, 36%, 37%);
+}
+
+h3 {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: hsl(228, 12%, 48%);
+    padding-top: 12px;
+    font-weight: 600;
+}
+
+button {
+    width: 300px;
+    height: 50px;
+    margin: 25px;
+    background-color: hsl(158, 42%, 18%);
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    padding: 9px;
+    text-align: center;
+}
